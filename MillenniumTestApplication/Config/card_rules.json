@@ -1,0 +1,489 @@
+[
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "ACTIVE"
+        ],
+        "actions": [
+            "ACTION1",
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION11",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "ACTIVE"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "BLOCKED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION8",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "BLOCKED"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "CLOSED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "EXPIRED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "INACTIVE"
+        ],
+        "actions": [
+            "ACTION2",
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION11",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "INACTIVE"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "ORDERED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "ORDERED"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "CREDIT"
+        ],
+        "cardStatuses": [
+            "RESTRICTED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION5",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "ACTIVE"
+        ],
+        "actions": [
+            "ACTION1",
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION11",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "ACTIVE"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "BLOCKED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "BLOCKED"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "CLOSED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "EXPIRED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "INACTIVE"
+        ],
+        "actions": [
+            "ACTION2",
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION11",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "INACTIVE"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "ORDERED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "ORDERED"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "DEBIT"
+        ],
+        "cardStatuses": [
+            "RESTRICTED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "ACTIVE"
+        ],
+        "actions": [
+            "ACTION1",
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION11",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "ACTIVE"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "BLOCKED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "BLOCKED"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "CLOSED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "EXPIRED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION9"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "INACTIVE"
+        ],
+        "actions": [
+            "ACTION2",
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION11",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "INACTIVE"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "ORDERED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION8",
+            "ACTION9",
+            "ACTION10",
+            "ACTION12",
+            "ACTION13"
+        ]
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "ORDERED"
+        ],
+        "actions": [
+            "ACTION6",
+            "ACTION7"
+        ],
+        "requirePin": true
+    },
+    {
+        "cardTypes": [
+            "PREPAID"
+        ],
+        "cardStatuses": [
+            "RESTRICTED"
+        ],
+        "actions": [
+            "ACTION3",
+            "ACTION4",
+            "ACTION9"
+        ]
+    }
+]

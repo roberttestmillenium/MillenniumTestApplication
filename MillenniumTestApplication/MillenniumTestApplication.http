@@ -1,0 +1,6 @@
+@MillenniumTestApplication_HostAddress = http://localhost:5020
+
+GET {{MillenniumTestApplication_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
