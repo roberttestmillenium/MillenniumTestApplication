@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace MillenniumTestApplication.Helpers
+namespace MillenniumTestApplication.Shared.Helpers
 {
     public static class StringNormalizationHelper
     {

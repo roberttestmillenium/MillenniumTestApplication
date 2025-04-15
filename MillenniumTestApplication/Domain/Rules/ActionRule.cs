@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace MillenniumTestApplication.Models
+namespace MillenniumTestApplication.Domain.Rules
 {
     public class ActionRule
     {

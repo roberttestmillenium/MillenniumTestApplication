@@ -1,8 +1,10 @@
-﻿using MillenniumTestApplication.Models;
+﻿using MillenniumTestApplication.Domain.Entities;
+using MillenniumTestApplication.Domain.Enums;
+using MillenniumTestApplication.Domain.Interfaces;
 
-namespace MillenniumTestApplication.Services
+namespace MillenniumTestApplication.Infrastructure.Mock
 {
-    public class CardService
+    public class CardService : ICardReader
     {
         private readonly Dictionary<string, Dictionary<string, CardDetails>> _userCards = CreateSampleUserCards();
 

@@ -1,6 +1,9 @@
+using MillenniumTestApplication.Application.Queries.GetAllowedActions;
+using MillenniumTestApplication.Domain.Interfaces;
+using MillenniumTestApplication.Domain.Services;
+using MillenniumTestApplication.Infrastructure.Mock;
+using MediatR;
 using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.Mvc;
-using MillenniumTestApplication.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +15,16 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<CardService>();
-builder.Services.AddSingleton<ActionResolver>(provider => new ActionResolver("Config/card_rules1.json"));
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(typeof(GetAllowedActionsQuery).Assembly);
+});
+
+builder.Services.AddSingleton<ICardReader, CardService>();
+
+var rulesPath = Path.Combine(builder.Environment.ContentRootPath, "Config", "card_rules.json");
+var actionResolver = new ActionResolver(rulesPath);
+builder.Services.AddSingleton<IActionResolver>(actionResolver);
 
 var app = builder.Build();
 
@@ -30,4 +41,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+await app.RunAsync();

@@ -1,4 +1,4 @@
-﻿namespace MillenniumTestApplication.Models
+﻿namespace MillenniumTestApplication.Domain.Enums
 {
     public enum CardType
     {
