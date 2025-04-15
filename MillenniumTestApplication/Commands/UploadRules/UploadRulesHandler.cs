@@ -1,9 +1,9 @@
-﻿using MediatR;
-using MillenniumTestApplication.Domain.Interfaces;
+﻿using MillenniumTestApplication.Domain.Interfaces;
 using MillenniumTestApplication.Domain.Rules;
 using MillenniumTestApplication.Infrastructure.Parsers;
 using MillenniumTestApplication.Shared.Helpers;
 using System.Text.Json;
+using MediatR;
 
 namespace MillenniumTestApplication.Commands.UploadRules
 {

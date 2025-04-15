@@ -1,7 +1,7 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using MillenniumTestApplication.Application.Queries.GetAllowedActions;
+﻿using MillenniumTestApplication.Application.Queries.GetAllowedActions;
 using MillenniumTestApplication.Commands.UploadRules;
+using Microsoft.AspNetCore.Mvc;
+using MediatR;
 
 namespace MillenniumTestApplication.Presentation.Controllers
 {

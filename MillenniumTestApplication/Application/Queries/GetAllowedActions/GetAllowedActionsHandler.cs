@@ -1,7 +1,7 @@
-﻿using MediatR;
-using MillenniumTestApplication.Application.Queries.GetAllowedActions;
+﻿using MillenniumTestApplication.Application.Queries.GetAllowedActions;
 using MillenniumTestApplication.Domain.Interfaces;
 using MillenniumTestApplication.Shared.Helpers;
+using MediatR;
 
 namespace MillenniumTestApplication.Application.Queries.GetAllowedActionsHandler
 {

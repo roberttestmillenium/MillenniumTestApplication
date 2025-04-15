@@ -1,9 +1,9 @@
-﻿using CsvHelper;
-using CsvHelper.Configuration;
-using MillenniumTestApplication.Domain.Enums;
+﻿using MillenniumTestApplication.Domain.Enums;
 using MillenniumTestApplication.Domain.Rules;
 using MillenniumTestApplication.Shared.Comparers;
 using System.Globalization;
+using CsvHelper;
+using CsvHelper.Configuration;
 
 namespace MillenniumTestApplication.Infrastructure.Parsers
 {
